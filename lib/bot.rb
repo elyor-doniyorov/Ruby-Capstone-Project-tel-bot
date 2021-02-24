@@ -1,8 +1,5 @@
 
 require 'telegram/bot'
-require_relative '../token'
-require_relative 'quotes'
-require_relative 'jokes'
 
 TOKEN = '1575355875:AAHRHeb4TcUD4Zqifw-nP6hSDPxcysinNJ4'
 
@@ -44,7 +41,7 @@ class Bot
         when '/start'
           bot.api.send_message(
             chat_id: message.chat.id,
-            text: "Hello #{message.from.first_name}"
+            text: "Hello #{message.from.first_name}. I am Magic Ball. I can predict your future conditions. Ask me anything, dude"
           )
         else
           bot.api.send_message(
