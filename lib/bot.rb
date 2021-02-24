@@ -1,37 +1,36 @@
-
 require 'telegram/bot'
 
-TOKEN = '1575355875:AAHRHeb4TcUD4Zqifw-nP6hSDPxcysinNJ4'
+TOKEN = '1575355875:AAHRHeb4TcUD4Zqifw-nP6hSDPxcysinNJ4'.freeze
 
 ANSWERS = [
   # positive
-  "Undoubtedly!",
-  "This is obvious!",
-  "No doubt!",
-  "Definitely yes!",
-  "You can be sure!",
+  'Undoubtedly!',
+  'This is obvious!',
+  'No doubt!',
+  'Definitely yes!',
+  'You can be sure!',
 
   # hesitantly positive
-  "I think so",
-  "Most likely",
-  "Good prospects",
-  "According to signs - Yes",
-  "Yes",
+  'I think so',
+  'Most likely',
+  'Good prospects',
+  'According to signs - Yes',
+  'Yes',
 
   # neutral
-  "Until it's clear, try again",
-  "Ask later",
-  "Better not tell you",
-  "Cannot predict now",
-  "Concentrate and ask again",
+  'Until it is clear, try again',
+  'Ask later',
+  'Better not tell you',
+  'Cannot predict now',
+  'Concentrate and ask again',
 
   # negative
-  "Do not even think!",
-  "My answer is - no!",
-  "According to me - no!",
-  "This is doubtful!",
-  "Not good prospects"
-]
+  'Do not even think!',
+  'My answer is - no!',
+  'According to me - no!',
+  'This is doubtful!',
+  'Not good prospects'
+].freeze
 
 class Bot
   def initilize
