@@ -41,7 +41,12 @@ class Bot
         when '/start'
           bot.api.send_message(
             chat_id: message.chat.id,
-            text: "Hello #{message.from.first_name}. I am Magic Ball. I can predict your future conditions. Ask me anything, dude"
+            text: "Hello #{message.from.first_name}. I am Magic Ball. Activate /start to see. I can predict your future conditions. Ask me anything, dude! For example, |What will be the weather like tommorrow?|"
+          )
+        when '/stop'
+          bot.api.send_message(
+            chat_id: message.chat.id,
+            text: "I see #{message.from.last_name} will come back later. Otherwise you will be bald when you wake up tomorrow morning"
           )
         else
           bot.api.send_message(
