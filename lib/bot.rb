@@ -1,6 +1,5 @@
 require 'telegram/bot'
-
-TOKEN = '1575355875:AAHRHeb4TcUD4Zqifw-nP6hSDPxcysinNJ4'.freeze
+require_relative '../token'
 
 ANSWERS = [
   # positive
@@ -40,7 +39,7 @@ class Bot
         when '/start'
           bot.api.send_message(
             chat_id: message.chat.id,
-            text: "Hello #{message.from.first_name}. I am Magic Ball. Activate /start to see. I can predict your future conditions. Ask me anything, dude! For example, |What will be the weather like tommorrow?|"
+            text: "Hello #{message.from.first_name}. I am Magic Ball. Activate /start or /stop to see. I can predict your future conditions. Ask me anything, dude! For example, |What will be the weather like tommorrow?|"
           )
         when '/stop'
           bot.api.send_message(

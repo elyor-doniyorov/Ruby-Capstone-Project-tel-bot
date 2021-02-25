@@ -26,11 +26,11 @@
 
 - The bot should run. If you search for your bot by its username in Telegram, it should be ready to receive commands. 
 
-- Currently, the bot responds to the commands 'start' and 'stop' and answers to your questions. 
+- The bot responds to the commands 'start' and 'stop' and answers to your questions. 
 
 - 'Start' will prompt the bot to give some basic info about itself.
 
-- 'stop' will stop the bot and predicts your future for the last time.
+- 'Stop' will stop the bot and predicts your future and gives some advises.
 
 - Of course, you can alter the messages and commands in bot.rb to something you prefer.
 
@@ -45,11 +45,9 @@
 
 ## How to Run Tests
 
-- If you ran `bundle install`, RSpec should be installed, along with all the other dependencies. To run the tests, cd into the top-level project folder and enter the command `rspec spec/test.rb`. This will run all tests. It should be noted that the #make_request method is a private method, so its test will naturally fail. To make it pass, temporarily comment out the `private` keyword in the `main.rb file`. The tests should now pass. Once satisfied, uncomment it so that the #make_request method is private again.
+- If you ran `bundle install`, RSpec should be installed, along with all the other dependencies. To run the tests, cd into the top-level project folder and enter the command `rspec spec/test.rb`. This will run all tests.
 
-
-
-## Authors
+## Author
 
 👤 **Elyor Doniyorov**
 
