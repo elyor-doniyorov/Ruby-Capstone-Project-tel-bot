@@ -51,8 +51,8 @@
 
 👤 **Elyor Doniyorov**
 
-- Github: [@Elyor](https://github.com/EL28DEV)
-- Linkedin: [Elyor](https://www.linkedin.com/in/elyor-doniyorov-a24631135/)
+- Github: [@Elyor](https://github.com/elyor-doniyorov)
+- Linkedin: [Elyor](https://www.linkedin.com/in/elyor-doniyorov/)
 
 
 ## 🤝 Contributing
