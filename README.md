@@ -16,7 +16,7 @@
 
 - First, you need to get a telegram account at [Telegram](https://web.telegram.org)
 - Once you have an account, search for @BotFather, the Telegram bot-making wizard. This should open a chat with the BotFather.
-- Now type '/newbot' and send to start a new bot and follow the instructions. The BotFather will ask you to choose a username and give you an API token. Keep this token secret. It can be used to control your bot.
+- Now type '/newbot' and send to start a new bot and follow the instructions. The BotFather will ask you to choose a username and give you an API token. Keep this token secret.   It can be used to control your bot.
 - Fork this repo and clone to your local machine.
 - Cd into the repo and create a file in the main directory called 'token.rb'
 - Inside token.rb, type 'TOKEN' and set it equal to the API token you got from the BotFather. Make sure the API token is in quotes to make it a string.
